@@ -82,3 +82,32 @@ p {
 .section {
   margin-bottom: 32px;
 }
+
+.media-gallery {
+  display: grid;
+  gap: 16px;
+}
+
+.media-card {
+  margin: 0;
+  padding: 12px;
+  border: 1px solid var(--silver-300);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 10px 24px rgba(11, 74, 110, 0.08);
+}
+
+.media-image {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--silver-300);
+}
+
+.media-description {
+  margin-top: 12px;
+  font-size: 0.95rem;
+  color: var(--ink);
+  font-style: italic;
+  text-align: center;
+}
